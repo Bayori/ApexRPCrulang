@@ -6,7 +6,7 @@
 
 ## Описание
 
-ApexRPC - это приложение, конфертирующее [Steam Rich Presence](https://partner.steamgames.com/doc/features/enhancedrichpresence) в [Discord Rich Presence](https://discord.com/rich-presence) для Apex Legends, написан на Node.js.
+ApexRPC - это приложение, конвертирующее [Steam Rich Presence](https://partner.steamgames.com/doc/features/enhancedrichpresence) в [Discord Rich Presence](https://discord.com/rich-presence) для Apex Legends, написан на Node.js.
 
 ## Использование
 
