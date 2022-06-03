@@ -1,0 +1,31 @@
+{
+  "name": "apexrpc",
+  "version": "1.0.2",
+  "description": "RPC клиент для Apex Legends. (Необходимо наличие Steam)",
+  "main": "main.js",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.1",
+    "find-process": "^1.4.7",
+    "nodemon": "^2.0.16",
+    "prompts": "^2.4.2",
+    "steam-user": "^4.20.2",
+    "winreg": "^1.2.4",
+    "winston": "^3.7.2"
+  },
+  "scripts": {
+    "build": "nexe main.js -r node_modules/@doctormckay/steam-crypto --target 12.18.2 -o ApexRPC.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holfz/ApexRPC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Holfz/ApexRPC/issues"
+  },
+  "homepage": "https://github.com/Holfz/ApexRPC#readme"
+}
